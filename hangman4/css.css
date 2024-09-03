@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+.hint-container {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #666;
+}
+
+.timer-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.word-container {
+    font-size: 28px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.incorrect-guesses-container {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #dc3545; 
+}
+
+.letters-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.letters-container button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.letters-container button:hover {
+    background-color: #218838;
+}
+
+.man-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.man-container img {
+    width: 200px;
+    height: auto;
+}
+
+.reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #17a2b8;
+    color: white;
+    margin-top: 20px;
+}
+
+.reset-button:hover {
+    background-color: #138496;
+}
+
+.message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dc3545;
+    margin-bottom: 20px;
+}
